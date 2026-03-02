@@ -8,15 +8,15 @@ It offers secure user authentication, group chats, live messaging via **Socket.I
 ## 📸 Project Preview
 
 <p align="center">
+  <img src="https://github.com/IBsai2112/Privacy-Talk/blob/2d37a78a800823018fc1bbca11f25b21545cb144/Asstes/signInPage.png" width="180"/>
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-1.png" width="180"/>
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-2.png" width="180"/>
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-4.png" width="180"/>
-  <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-5.png" width="180"/>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-6.png" width="180"/>
-  <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-7.png" width="180"/>
+  <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-5.png" width="180"/>
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-9.png" width="180"/>
   <img src="https://raw.githubusercontent.com/IBsai2112/Privacy-Talk/986f53eb0f68f616f790492e04cff4dfea8694a3/Asstes/screenshot-10.png" width="180"/>
 </p>
