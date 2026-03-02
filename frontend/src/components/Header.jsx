@@ -112,26 +112,27 @@ const Header = () => {
 	return (
 		<div
 			id="header"
-			className="w-full h-16 md:h-20 fixed top-0 z-50 
-			           flex justify-between items-center p-4 font-semibold 
-			           bg-[black] text-white
-			           border-b border-gray-600 shadow-sm"
+			className="w-full h-16 md:h-20 fixed top-0 z-50
+                flex justify-between items-center p-4 font-semibold 
+                px-20 text-white border-b border-white/10 shadow-sm
+                bg-transparent backdrop-filter backdrop-blur-lg
+                backdrop-blur-md"
 		>
-			<div className="flex items-center gap-2">
+			<div className="flex items-center gap-4">
 				<Link to={"/"}>
 					<img
 						src={Logo}
 						alt="ChatApp"
-						className="h-12 w-12 rounded-full"
+						className="h-12 w-12 rounded-full "
 					/>
 				</Link>
 				<Link to={"/"}>
-					<span>ChatApp</span>
+					<span>Privacy-Talk</span>
 				</Link>
 			</div>
 
 			{user ? (
-				<div className="flex items-center">
+				<div className="flex items-center ">
 					<span
 						className={`relative mr-2 cursor-pointer ${
 							newMessageRecieved.length > 0 ? "animate-bounce" : ""

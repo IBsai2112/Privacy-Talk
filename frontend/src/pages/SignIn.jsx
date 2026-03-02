@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { addAuth } from "../redux/slices/authSlice";
 import { checkValidSignInFrom } from "../utils/validate";
 import { PiEye, PiEyeClosedLight } from "react-icons/pi";
+import bgImage from "../assets/chatbg.avif";
 
 const SignIn = () => {
 	const [email, setEmail] = useState("");
@@ -63,8 +64,9 @@ const SignIn = () => {
 		}
 	};
 	return (
-		<div className="flex flex-col items-center my-6 text-slate-300 min-h-[80vh]">
-			<div className="p-3 w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] min-w-72 max-w-[1000px] border border-slate-400 bg-slate-800 rounded-lg h-fit  mt-5 transition-all">
+		<div className="flex flex-col items-start justify-center -my-20 min-h-screen text-slate-300 min-h-[80vh] bg-gradient-to-br from-[#1a0a53] via-[#421782] to-[#6D5D91] bg-cover bg-center">
+			<div className="p-3 w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] min-w-72 max-w-[1000px] rounded-lg h-[30vw] ml-20  -mt-20 transition-all">
+			{/* // style={{ backgroundImage: `url(${bgImage})` }}> */}
 				<h2 className="text-2xl underline underline-offset-8 font-semibold text-slate-100 w-full text-center mb-4">
 					SignIn ChatApp
 				</h2>
