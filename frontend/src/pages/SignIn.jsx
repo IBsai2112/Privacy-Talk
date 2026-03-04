@@ -68,7 +68,7 @@ const SignIn = () => {
 			<div className="p-3 w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] min-w-72 max-w-[1000px] rounded-lg h-[30vw] ml-10  -mt-20 transition-all">
 			{/* // style={{ backgroundImage: `url(${bgImage})` }}> */}
 				<h2 className="text-2xl underline underline-offset-8 font-semibold text-slate-100 w-full text-center mb-4">
-					SignIn ChatApp
+					SignIn 
 				</h2>
 				<form className="w-full flex flex-col space-y-4 bg-white/5 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-2xl">
     {/* Email Section */}

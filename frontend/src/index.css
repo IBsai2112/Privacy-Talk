@@ -8,6 +8,12 @@
 body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 	background-color: #000000;
+	/* background: linear-gradient(135deg, #1a0a53 0%, #421782 50%, #6D5D91 100%); */
+	/* Ensures the background covers the whole screen */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 	color: #222;
 }
 

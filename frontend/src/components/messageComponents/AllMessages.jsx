@@ -64,6 +64,8 @@ const AllMessages = ({ allMessage }) => {
 
 			<div
 				className="flex flex-col w-full px-3 gap-1 py-2 
+						   bg-[#110d23] bg-cover
+						   border-8 border-black
 				           overflow-y-auto scroll-style h-[66vh]"
 				ref={chatBox}
 			>
@@ -111,8 +113,8 @@ const AllMessages = ({ allMessage }) => {
 								className={`py-2 px-3 min-w-10 flex flex-col relative 
 								            max-w-[85%] rounded-2xl ${
 									message?.sender?._id === adminId
-										? "bg-[#cfe9ff]"
-										: "bg-[#e6f2ff]"
+										? "bg-[#9d7dfa]"
+										: "bg-[#211844]"
 								}`}
 							>
 								{/* GROUP SENDER NAME */}
@@ -127,18 +129,18 @@ const AllMessages = ({ allMessage }) => {
 								<div
 									className={`mt-1 pb-1 ${
 										message?.sender?._id === adminId
-											? "pr-14"
+											? "pr-15"
 											: "pr-12"
 									}`}
 								>
-									<span className="text-gray-900">
+									<span className="text-white">
 										{message?.message}
 									</span>
 
 									{/* TIME + TICKS */}
 									<span
-										className="text-[11px] text-gray-500 
-										           absolute bottom-1 right-2 
+										className="text-[8px] text-gray-300 
+										           absolute bottom-1 right-2
 										           flex items-end gap-1.5"
 										title={SimpleDateAndTime(
 											message?.updatedAt

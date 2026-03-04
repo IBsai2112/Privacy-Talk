@@ -99,7 +99,8 @@ const Home = () => {
 				selectedChat && "hidden"
 			} sm:block sm:w-[40%] w-full h-full 
 			bg-[#f7f8fa] 
-			border-r-2 border-gray-300 
+			border-r-2 border-gray-300
+			bg-gradient-to-br from-[#1a0a53] via-[#421782] to-[#6D5D91] bg-cover
 			relative`}
 		>
 			<div className="absolute bottom-4 right-4 cursor-pointer 
@@ -119,7 +120,7 @@ const Home = () => {
 			className={`${
 				!selectedChat && "hidden"
 			} sm:block sm:w-[60%] w-full h-full 
-			bg-[#eef3f8] 
+			bg-gradient-to-br from-[#1a0a53] via-[#421782] to-[#6D5D91] bg-cover
 			border-l border-gray-200 
 			relative overflow-hidden`}
 		>

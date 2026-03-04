@@ -86,8 +86,8 @@ const MessageBox = ({ chatId }) => {
 			<div
 				className="py-4 sm:px-6 px-3 w-full h-[7vh] 
 				           flex justify-between items-center 
-				           bg-white border-b border-gray-300 
-				           text-gray-900 cursor-pointer"
+				           bg-[#110d23] border-8 border-black 
+				           text-gray-300 cursor-pointer"
 				onClick={() => dispatch(setChatDetailsBox(true))}
 			>
 				<div className="flex items-center gap-2">
@@ -117,7 +117,7 @@ const MessageBox = ({ chatId }) => {
 				<CiMenuKebab
 					fontSize={18}
 					title="Menu"
-					className="cursor-pointer text-gray-600"
+					className="cursor-pointer text-gray-200"
 				/>
 			</div>
 
@@ -131,7 +131,7 @@ const MessageBox = ({ chatId }) => {
 					<div
 						ref={chatDetailsBox}
 						className="flex border border-gray-300 
-						           bg-white overflow-hidden rounded-lg"
+						           bg-[#110d23] overflow-hidden rounded-lg"
 					>
 						<ChatDetailsBox />
 					</div>
