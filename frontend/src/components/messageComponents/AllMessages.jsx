@@ -65,7 +65,7 @@ const AllMessages = ({ allMessage }) => {
 			<div
 				className="flex flex-col w-full px-3 gap-1 py-2 
 						   bg-[#110d23] bg-cover
-						   border-8 border-black
+						   border-4 border-black border-b-0
 				           overflow-y-auto scroll-style h-[66vh]"
 				ref={chatBox}
 			>

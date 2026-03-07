@@ -91,15 +91,15 @@ const Home = () => {
 	/* ================= UI (LIGHT TELEGRAM STYLE) ================= */
 
 	return (
-	<div className="flex w-full h-[80vh] bg-white border border-gray-300 rounded-lg shadow-sm relative overflow-hidden">
-		
+	<div className="flex w-full h-[80vh] bg-black border-8 border-black border-b-0 rounded-lg shadow-sm relative overflow-hidden">
+		{/* update white bg --- update after --- */}
 		{/* LEFT PANEL */}
 		<div
 			className={`${
 				selectedChat && "hidden"
 			} sm:block sm:w-[40%] w-full h-full 
 			bg-[#f7f8fa] 
-			border-r-2 border-gray-300
+			border-4 border-black
 			bg-gradient-to-br from-[#1a0a53] via-[#421782] to-[#6D5D91] bg-cover
 			relative`}
 		>
@@ -121,7 +121,7 @@ const Home = () => {
 				!selectedChat && "hidden"
 			} sm:block sm:w-[60%] w-full h-full 
 			bg-gradient-to-br from-[#1a0a53] via-[#421782] to-[#6D5D91] bg-cover
-			border-l border-gray-200 
+			border-8 border-black border-b-0 shadow-sm
 			relative overflow-hidden`}
 		>
 			{selectedChat ? (
