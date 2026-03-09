@@ -12,7 +12,8 @@ const ChatDetailsBox = () => {
 	const [detailView, setDetailView] = useState("overview");
 	return (
 		<>
-			<div className="w-fit h-[60vh] p-2 flex flex-col gap-1.5 bg-slate-900">
+			<div className="w-fit h-[60vh] p-2 flex flex-col gap-1.5 
+							bg-[#0000004d] backdrop-blur-lg border border-white/10 rounded-xl p-4">
 				<div
 					className={`flex gap-2 items-center p-1 text-white rounded-md px-2 cursor-pointer ${
 						detailView === "overview"

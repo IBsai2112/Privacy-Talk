@@ -52,7 +52,7 @@ const MyChat = () => {
                 <div
                     className="flex items-center gap-2 border border-gray-700 
                                py-1 px-2 rounded-md cursor-pointer 
-                               hover:bg-gray-200 active:bg-gray-300"
+                               hover:bg-[#9d7dfa] active:bg-gray-300"
                     title="Create New Group"
                     onClick={() => dispatch(setGroupChatBox())}
                 >
